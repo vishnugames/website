@@ -1,0 +1,18 @@
+{
+  "name": "vishnugames-website",
+  "version": "1.0.0",
+  "description": "Website for Vishnu Games",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "vishugames"
+  ],
+  "author": "cjkumaresh",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-scss":"^1.3.17"
+  }
+}
