@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'vg-font';
+  src: url("../fonts/fledgling-sb.eot");
+  src: url("../fonts/fledgling-sb.woff") format("woff"), url("../fonts/fledgling-sb.ttf") format("truetype"), url("../fonts/fledgling-sb.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+html {
+  height: 100%; }
+  html body {
+    height: 100%; }
+    html body nav .navbar-header {
+      min-height: 12rem; }
+      html body nav .navbar-header .logo {
+        max-width: 145px; }
+    html body .imageContainer #image-carousel img {
+      width: 100%; }
+    html body .imageContainer .carousel-control.left, html body .imageContainer .carousel-control.right {
+      background-image: url(); }
+    html body .content {
+      height: 29%; }
+      html body .content h2 {
+        font-family: 'vg-font', sans-serif;
+        text-transform: uppercase; }
+    html body .footer {
+      min-height: 70px;
+      background-color: #f8f8f8; }
+
+/*# sourceMappingURL=main.css.map */
