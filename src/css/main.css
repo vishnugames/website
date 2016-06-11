@@ -12,6 +12,11 @@ html {
       min-height: 12rem; }
       html body nav .navbar-header .logo {
         max-width: 145px; }
+    html body nav #navbar {
+      font-size: 50px;
+      font-family: 'vg-font', sans-serif; }
+      html body nav #navbar ul {
+        margin-top: 3rem; }
     html body .imageContainer #image-carousel img {
       width: 100%; }
     html body .imageContainer .carousel-control.left, html body .imageContainer .carousel-control.right {
@@ -21,6 +26,8 @@ html {
       html body .content h2 {
         font-family: 'vg-font', sans-serif;
         text-transform: uppercase; }
+      html body .content p {
+        font-family: sans-serif; }
     html body .footer {
       min-height: 70px;
       background-color: #f8f8f8; }
