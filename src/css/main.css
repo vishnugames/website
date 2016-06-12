@@ -1,9 +1,26 @@
+body {
+  background: -webkit-linear-gradient(top, #ED6462, #D12F2F); }
+  body #navbar a {
+    color: #394A4F; }
+  body #navbar li:hover {
+    background-color: #A69F56; }
+
 @font-face {
   font-family: 'vg-font';
   src: url("../fonts/fledgling-sb.eot");
   src: url("../fonts/fledgling-sb.woff") format("woff"), url("../fonts/fledgling-sb.ttf") format("truetype"), url("../fonts/fledgling-sb.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
+#navbar {
+  font-size: 50px;
+  font-family: 'vg-font', sans-serif; }
+
+.content h2 {
+  font-family: 'vg-font', sans-serif;
+  text-transform: uppercase; }
+.content p {
+  font-family: sans-serif; }
+
 html {
   height: 100%; }
   html body {
@@ -12,24 +29,15 @@ html {
       min-height: 12rem; }
       html body nav .navbar-header .logo {
         max-width: 145px; }
-    html body nav #navbar {
-      font-size: 50px;
-      font-family: 'vg-font', sans-serif; }
-      html body nav #navbar ul {
-        margin-top: 3rem; }
+    html body nav #navbar ul {
+      margin-top: 3rem; }
     html body .imageContainer #image-carousel img {
       width: 100%; }
     html body .imageContainer .carousel-control.left, html body .imageContainer .carousel-control.right {
       background-image: url(); }
     html body .content {
       height: 29%; }
-      html body .content h2 {
-        font-family: 'vg-font', sans-serif;
-        text-transform: uppercase; }
-      html body .content p {
-        font-family: sans-serif; }
     html body .footer {
-      min-height: 70px;
-      background-color: #f8f8f8; }
+      min-height: 70px; }
 
 /*# sourceMappingURL=main.css.map */

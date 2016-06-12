@@ -1,10 +1,10 @@
+@import "light_theme";
 @import "font";
 html {
 		height: 100%;
 
 		body {
 				height: 100%;
-
 				nav {
 						.navbar-header {
 								min-height: 12rem;
@@ -14,9 +14,6 @@ html {
 						}
 
 						#navbar {
-							  font-size: 50px;
-						    font-family: 'vg-font', sans-serif;
-
 								ul {
 										margin-top: 3rem;
 								}
@@ -35,18 +32,10 @@ html {
 
 				.content {
 					  height: 29%;
-						h2 {
-								font-family: 'vg-font', sans-serif;
-								text-transform: uppercase;
-						}
-						p {
-								font-family: sans-serif;
-						}
 				}
 
 				.footer {
 						min-height: 70px;
-						background-color: #f8f8f8;
 				}
 		}
 }

@@ -1,0 +1,22 @@
+
+$darkGreen: #394A4F;
+$lightGreen: #609635;
+$red: #D12F2F;
+$lightGrey: #E2E6E8;
+$darkGrey: #B0BEC5;
+$lightYelloeGreem: #BFCA4B;
+$darkYellowGreen: #A69F56;
+$lightRed: #ED6462;
+
+body {
+    background: -webkit-linear-gradient(top, $lightRed, $red);
+
+    #navbar {
+        a {
+            color: $darkGreen;
+        }
+        li:hover {
+            background-color: $darkYellowGreen;
+        }
+    }
+}
